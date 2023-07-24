@@ -7,6 +7,8 @@
     <!-- tailwind and daisey ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/138a7f6fb6.js" crossorigin="anonymous"></script>
     <!-- tailwind customs -->
     <script>
         tailwind.config = {
@@ -32,8 +34,32 @@
     </style>
 </head>
 <body class="font-manrope">
-    <header>
-        
+    <header class="container mx-auto">
+      <div class="hero ">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div>
+            <img src="/images/banner.png" class="max-w-sm " />
+            <div>
+              <!-- rating badge -->
+              <div class="-mt-16 flex items-center gap-5 drop-shadow-lg bg-white p-5 w-60">
+                <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                <div>
+                  <h3 class="text-3xl"> 5.00</h3>
+                <p>Trust Pilot Ratings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 class="text-7xl font-extrabold">
+              It's good <br>
+              tea time at The <br>
+               Tea House</h1>
+            <p class="py-6 text[#777]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="btn btn-primary">Explore More</button>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
 
